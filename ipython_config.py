@@ -31,7 +31,7 @@ c.InteractiveShellApp.exec_lines = [
         'from pylab import*',
         '%matplotlib inline',
 	'rcParams["figure.figsize"] = 15, 15',
-	'rc("text", usetex = True)'
+	'rc("text", usetex = False)'
         ]
 
 # Execute the given command string.
